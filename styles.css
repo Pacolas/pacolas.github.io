@@ -1,0 +1,17 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header h2 {
+    font-size: 2.5rem; 
+}
+
+main p {
+    text-align: justify;
+}
+
+footer p {
+    margin: 0;
+}
