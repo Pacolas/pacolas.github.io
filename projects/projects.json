@@ -1,0 +1,58 @@
+[
+    {
+        "id": "nli_spanish_test",
+        "name": "Natural Language Inference Test for Spanish Corpus via LLMs",
+        "technologies": ["Python", "OPENAI API", "GCP"],
+        "link": "",
+        "description": "This investigation project focused on testing the Natural Language Inference (NLI) task within the context of the Spanish language. By employing prompt engineering techniques, I experimented with both zero-shot and few-shot learning scenarios. The aim was to define and evaluate the state of the art in NLI for Spanish, exploring how well large language models (LLMs) can perform inference tasks when trained primarily on English data."
+    },
+    {
+        "id": "drone_video_manager",
+        "name": "Dron Competition Video Manager",
+        "technologies": ["Python", "OPENAI API", "GCP"],
+        "link": "",
+        "description": "As part of the development team, I developed an autoscalable cloud-native application. This application allows users to upload, edit, and publish videos."
+    },
+    {
+        "id": "human_validated_nli",
+        "name": "Human-Validated Dataset for NLI",
+        "technologies": ["Python", "LabelStudio", "GCP"],
+        "link": "GitHub (Private)",
+        "description": "For testing NLI, I guided NLP students in labeling a multigenre corpus by implementing a labeling interface focused on the NLI task. Additionally, I implemented a parsing notebook to standardize the resulting dataset."
+    },
+    {
+        "id": "sentiment_classifier_reviews",
+        "name": "Sentiment Classifier for Hotel and Restaurant Reviews",
+        "technologies": ["Python", "Scikit-Learn", "FastAPI"],
+        "link": "",
+        "description": "I developed a backend system that allows users to train a new sentiment classification model using their own datasets and preferences. The system supports a 5-label classification task for hotel and restaurant reviews. I also implemented a data preprocessing pipeline to ensure clean and standardized input for training and classification. Additionally, the system offers a service to classify either individual texts or entire files, providing flexibility and ease of use for various data processing needs."
+    },
+    {
+        "id": "virtual_turn_machine",
+        "name": "Virtual Turn Machine for Android",
+        "technologies": ["Kotlin", "Firestore", "Cloud Functions", "Google Looker Studio"],
+        "link": "GitHub",
+        "description": "With my teammates, I helped develop a mobile application to virtualize queues for restaurants and stores. My primary contribution was designing and implementing a map feature to identify commercial points in Bogotá based on the queues registered in the app. In addition to the mobile app, an analytics view was developed to monitor the collected data."
+    },
+    {
+        "id": "backend_virtual_turn",
+        "name": "Backend for a Virtual Turn Machine for Android",
+        "technologies": ["Python", "FastAPI", "PostgreSQL"],
+        "link": "GitHub",
+        "description": "I developed a backend API designed to manage the business logic of a mobile application that facilitates virtual appointments for users at restaurants and banks. This project involved setting up a robust database structure using PostgreSQL and implementing the FastAPI framework to ensure fast and reliable responses for users booking appointments."
+    },
+    {
+        "id": "cloud_flight_service",
+        "name": "Cloud Native Flight Service API",
+        "technologies": ["GCP", "Kubernetes", "Docker", "GitHub", "Flask"],
+        "link": "GitHub (Private)",
+        "description": "In this project, I developed a backend API to support the logic of a flight service within a cloud-native environment. Leveraging technologies like Docker and Kubernetes, I created a scalable and maintainable architecture that allows for efficient deployment and management of the service, ensuring high availability and responsiveness for users."
+    },
+    {
+        "id": "park_web_app",
+        "name": "Park Web App",
+        "technologies": ["React", "Nest"],
+        "link": "",
+        "description": "I created a web application designed to manage parks and facilitate reservations for drivers of cars, motorcycles, and bicycles. This project involved implementing a user-friendly interface with React and developing a robust backend with Nest to handle user requests, manage park availability, and process reservations seamlessly."
+    }
+]

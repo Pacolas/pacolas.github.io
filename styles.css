@@ -1,9 +1,89 @@
-
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    overflow: hidden;
+    background-color: rgb(24, 24, 24) !important;
+
+
 }
 
+body p{
+    color: rgb(170, 170, 170);
+}
+
+.container{
+    color: White !important
+}
+
+h4{
+    color: White !important
+}
+.navbar {
+    background-color: #000000 !important;
+    
+}
+
+main {
+    background-color: black;
+}
+.navbar a{
+    color:white;
+    
+
+}
+
+.navbar li:hover{
+    background-color:rgb(36, 36, 36);
+}
+.navbar a:hover{
+    color:red
+}
+
+strong{
+    color:rgb(162, 162, 162)
+}
+
+.left-column {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #383838;
+
+}
+.btn{
+    background-color: aqua !important;
+}
+
+.btn:hover{
+    background-color: rgb(209, 131, 131) !important;
+    color:#000000 !important;
+    transition: .9s !important; 
+}
+.linkedin{
+    background-color: #23a7cc !important;
+    color: white !important;
+}
+
+.outlook{
+    background-color: #4f5e9f !important;
+    color: white !important;
+}
+
+.github{
+    background-color: #292929 !important;
+    color: white !important;
+}
+.gmail{
+    background-color: #fedada !important;
+    color: rgb(0, 0, 0) !important;
+}
+.right-column {
+    height: 100vh;
+    overflow-y: auto;
+
+    padding: 1rem;
+}
 header h2 {
     font-size: 2.5rem; 
 }

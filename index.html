@@ -4,32 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
-
+    <title>Pacolas Portafolio</title>
+    <link href="styles.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body {
-            overflow: hidden;
-     
-        }
 
-        .left-column {
-            position: sticky;
-            top: 0;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #f8f9fa;
-  
-        }
-
-        .right-column {
-            height: 100vh;
-            overflow-y: auto;
-     
-            padding: 1rem;
-        }
     </style>
 </head>
 
@@ -38,7 +17,7 @@
 
     </header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +35,7 @@
                         <a class="nav-link" href="#work-experience">Work Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact-me">Contact Me</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                 </ul>
             </div>
@@ -65,36 +44,43 @@
 
     <main class="container">
         <div class="row align-items-start">
-            <!-- Left Column: Static Image -->
-            <div class="col left-column text-center d-flex flex-column align-items-center justify-content-center" >
-    <div class="row justify-content-center text-center">
-        <h2>Nicolas Perez Teran</h2><br/>
-        <img src="media/profile2.jpg" alt="Nicolas Perez" class="img-fluid rounded-circle" style="max-width: 300px;">
-        
-        <h3>Computer Science</h3>
-        <p>+57 311 8618562</p>
 
-        <ul class="list-unstyled">
-            <li>
-                <strong>LinkedIn:</strong>
-                <a href="https://www.linkedin.com/in/nicolas-perez-teran-2035511a6/" target="_blank" rel="noopener noreferrer">
-                    linkedin.com/in/nicolas-perez-teran-2035511a6/
-                </a>
-            </li>
-            <li>
-                <strong>Gmail:</strong>
-                <a href="mailto:nicoastrio@gmail.com">nicoastri@gmail.com</a>
-            </li>
-            <li>
-                <strong>Outlook:</strong>
-                <a href="mailto:nicolink_06o@hotmail.com">nicolink_06@hotmail.com</a>
-            </li>
-        </ul>
-    </div>
-</div>
+            <div class="col left-column text-center d-flex flex-column align-items-center justify-content-center">
+                <div class="row justify-content-center text-center">
+                    <h2>Nicolas Perez Teran</h2><br />
+                    <img src="media/profile2.jpg" alt="Nicolas Perez" class="img-fluid rounded-circle"
+                        style="max-width: 300px;">
+
+                    <h3>Computer Science</h3>
 
 
-            
+                    <ul class="list-unstyled">
+                        <li>
+                            <strong>+57 311 8618562</strong>
+                        </li>
+                    </br>
+                        <a class="btn linkedin" href="https://www.linkedin.com/in/nicolas-perez-teran-2035511a6/">
+                            LinkedIn
+                        </a>
+
+                        <a class="btn gmail" href="mailto:nicoastrio@gmail.com" >
+                            Gmail
+                        </a>
+
+                        <a class="btn outlook" href="mailto:nicolink_06o@hotmail.com" >
+                            Outlook
+                        </a>
+
+                        <a class="btn github" href="https://github.com/Pacolas" >
+                            Github
+                        </a>
+
+                    </ul>
+                </div>
+            </div>
+
+
+
             <div class="col-md-8 right-column">
                 <section id="about-me" class="my-5">
                     <h2>About Me</h2>
@@ -114,7 +100,7 @@
                     </p>
                 </section>
 
-                
+
                 <section id="education" class="my-5">
                     <h2>Education</h2>
                     <ul>
@@ -136,7 +122,7 @@
 
                 <section id="projects" class="my-5">
                     <h2>Projects</h2>
-                
+
                     <div class="mb-4">
                         <h4>Natural Language Inference Test for Spanish Corpus via LLMs</h4>
                         <p><strong>Technologies:</strong> Python, OPENAI API, GCP</p>
@@ -151,7 +137,17 @@
                         </p>
                         <p><a href="https://hdl.handle.net/1992/75670" target="_blank">Project Link</a></p>
                     </div>
-                
+
+                    <div class="mb-4">
+                        <h4>Dron Competition Video Manager</h4>
+                        <p><strong>Technologies:</strong> Python, OPENAI API, GCP</p>
+                        <p>
+                            As part of the development team, I developed a autoscallable cloud native application. This
+                            application allows to upload, edit and publish videos.
+                        </p>
+                        <p><a href="https://hdl.handle.net/1992/75670" target="_blank">Project Link</a></p>
+                    </div>
+
                     <div class="mb-4">
                         <h4>Human-Validated Dataset for NLI</h4>
                         <p><strong>Technologies:</strong> Python, LabelStudio, GCP</p>
@@ -162,7 +158,7 @@
                         </p>
                         <p><a href="https://github.com/Pacolas/NLI-via-LLMs" target="_blank">GitHub (Private)</a></p>
                     </div>
-                
+
                     <div class="mb-4">
                         <h4>Sentiment Classifier for Hotel and Restaurant Reviews</h4>
                         <p><strong>Technologies:</strong> Python, Scikit-Learn, FastAPI</p>
@@ -175,8 +171,9 @@
                             Additionally, the system offers a service to classify either individual texts or entire
                             files, providing flexibility and ease of use for various data processing needs.
                         </p>
+                        <p><a href="https://github.com/Pacolas/Review_Classifier" target="_blank">Project Link</a></p>
                     </div>
-                
+
                     <div class="mb-4">
                         <h4>Virtual Turn Machine for Android</h4>
                         <p><strong>Technologies:</strong> Kotlin, Firestore, Cloud Functions, Google Looker Studio</p>
@@ -188,9 +185,10 @@
                             In addition to the mobile app, an analytics view was developed to monitor the collected
                             data.
                         </p>
-                        <p><a href="https://github.com/S3-G31-Kotlin-QueueHub/mobile-app-android" target="_blank">GitHub</a></p>
+                        <p><a href="https://github.com/S3-G31-Kotlin-QueueHub/mobile-app-android"
+                                target="_blank">GitHub</a></p>
                     </div>
-                
+
                     <div class="mb-4">
                         <h4>Backend for a Virtual Turn Machine for Android</h4>
                         <p><strong>Technologies:</strong> Python, FastAPI, PostgreSQL</p>
@@ -201,9 +199,10 @@
                             implementing the FastAPI framework to ensure fast and reliable responses for users booking
                             appointments.
                         </p>
-                        <p><a href="https://github.com/S3-G31-Kotlin-QueueHub/QueueHubBackend" target="_blank">GitHub</a></p>
+                        <p><a href="https://github.com/S3-G31-Kotlin-QueueHub/QueueHubBackend"
+                                target="_blank">GitHub</a></p>
                     </div>
-                
+
                     <div class="mb-4">
                         <h4>Cloud Native Flight Service API</h4>
                         <p><strong>Technologies:</strong> GCP, Kubernetes, Docker, GitHub, Flask</p>
@@ -214,9 +213,10 @@
                             architecture that allows for efficient deployment and management of the service, ensuring
                             high availability and responsiveness for users.
                         </p>
-                        <p><a href="https://github.com/MISW-4301-Desarrollo-Apps-en-la-Nube/s202414-proyecto-grupo22" target="_blank">GitHub (Private)</a></p>
+                        <p><a href="https://github.com/MISW-4301-Desarrollo-Apps-en-la-Nube/s202414-proyecto-grupo22"
+                                target="_blank">GitHub (Private)</a></p>
                     </div>
-                
+
                     <div class="mb-4">
                         <h4>Park Web App</h4>
                         <p><strong>Technologies:</strong> React, Nest</p>
@@ -229,7 +229,7 @@
                         </p>
                     </div>
                 </section>
-                
+
                 </section>
 
 
