@@ -29,16 +29,19 @@ main {
     
 
 }
+.navbar .nav-link{
+    color: rgb(243, 243, 243) !important;
+}
 
 .navbar li:hover{
     background-color:rgb(36, 36, 36);
 }
-.navbar a:hover{
-    color:red
+.navbar .nav-link:hover{
+    color:red !important
 }
 
 strong{
-    color:rgb(162, 162, 162)
+    color:rgb(200, 200, 200)
 }
 
 .left-column {
@@ -54,7 +57,9 @@ strong{
 .btn{
     background-color: aqua !important;
 }
-
+.link{
+    color:green
+}
 .btn:hover{
     background-color: rgb(209, 131, 131) !important;
     color:#000000 !important;
@@ -94,4 +99,13 @@ main p {
 
 footer p {
     margin: 0;
+}
+
+div .my-5{
+    padding-top: 4rem !important;
+
+    margin-top:0 !important
+}
+h2{
+    padding-bottom: 1rem;
 }
