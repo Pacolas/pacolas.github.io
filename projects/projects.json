@@ -3,7 +3,7 @@
         "id": "nli_spanish_test",
         "name": "Natural Language Inference Test for Spanish Corpus via LLMs",
         "technologies": ["Python", "OPENAI API", "GCP"],
-        "link": "",
+        "link": "https://repositorio.uniandes.edu.co/entities/publication/30cbfba5-b951-400f-95e7-94cea2ca7f2b",
         "description": "This investigation project focused on testing the Natural Language Inference (NLI) task within the context of the Spanish language. By employing prompt engineering techniques, I experimented with both zero-shot and few-shot learning scenarios. The aim was to define and evaluate the state of the art in NLI for Spanish, exploring how well large language models (LLMs) can perform inference tasks when trained primarily on English data."
     },
     {
