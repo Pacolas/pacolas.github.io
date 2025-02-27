@@ -19,7 +19,7 @@
             
             div.classList.add("mb-4");
         
-            
+            console.log(item.link)
 
             div.innerHTML = `
                 <h4>${item.name}</h4>
