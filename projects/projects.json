@@ -2,14 +2,21 @@
     {
         "id": "nli_spanish_test",
         "name": "Natural Language Inference Test for Spanish Corpus via LLMs",
-        "technologies": ["Python", "OPENAI API", "GCP"],
+        "technologies": ["Python", "OPENAI API", "GCP", "GitHub"],
         "link": "https://repositorio.uniandes.edu.co/entities/publication/30cbfba5-b951-400f-95e7-94cea2ca7f2b",
         "description": "This investigation project focused on testing the Natural Language Inference (NLI) task within the context of the Spanish language. By employing prompt engineering techniques, I experimented with both zero-shot and few-shot learning scenarios. The aim was to define and evaluate the state of the art in NLI for Spanish, exploring how well large language models (LLMs) can perform inference tasks when trained primarily on English data."
     },
     {
+        "id": "med_tranlator",
+        "name": "RealTime audio translator",
+        "technologies": ["Python", "FastAPI", "HTML/JS/CSS", "Docker", "GeminiAI"],
+        "link": "https://github.com/Pacolas/med-translate",
+        "description": "In this project, we explored ways to integrate LLMs to develop a solution for existing communication challenges between patients and healthcare providers in real time. This approach enables accessible, real-time audio translation into multiple languages, along with accurate transcription."
+    },
+    {
         "id": "drone_video_manager",
         "name": "Dron Competition Video Manager",
-        "technologies": ["Python", "OPENAI API", "GCP"],
+        "technologies": ["Python", "Docker", "GCP", "Gitlab"],
         "link": "https://gitlab.com/CarlosMunoz0/misw4204-g21",
         "description": "As part of the development team, I developed an autoscalable cloud-native application. This application allows users to upload, edit, and publish videos."
     },
@@ -23,7 +30,7 @@
     {
         "id": "sentiment_classifier_reviews",
         "name": "Sentiment Classifier for Hotel and Restaurant Reviews",
-        "technologies": ["Python", "Scikit-Learn", "FastAPI"],
+        "technologies": ["Python", "Scikit-Learn", "FastAPI","React"],
         "link": "https://github.com/Pacolas/Review_Classifier",
         "description": "I developed a backend system that allows users to train a new sentiment classification model using their own datasets and preferences. The system supports a 5-label classification task for hotel and restaurant reviews. I also implemented a data preprocessing pipeline to ensure clean and standardized input for training and classification. Additionally, the system offers a service to classify either individual texts or entire files, providing flexibility and ease of use for various data processing needs."
     },
@@ -32,7 +39,7 @@
         "name": "Virtual Turn Machine for Android",
         "technologies": ["Kotlin", "Firestore", "Cloud Functions", "Google Looker Studio"],
         "link": "https://github.com/S3-G31-Kotlin-QueueHub/mobile-app-android",
-        "description": "With my teammates, I helped develop a mobile application to virtualize queues for restaurants and stores. My primary contribution was designing and implementing a map feature to identify commercial points in Bogotá based on the queues registered in the app. In addition to the mobile app, an analytics view was developed to monitor the collected data."
+        "description": "With my teammates, I helped developing a mobile application to virtualize queues for restaurants and stores. My primary contribution was designing and implementing a map feature to identify commercial points in Bogotá based on the queues registered in the app. In addition to the mobile app, an analytics view was developed to monitor the collected data."
     },
     {
         "id": "backend_virtual_turn",

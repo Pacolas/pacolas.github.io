@@ -11,7 +11,7 @@
 
         const contentDiv = document.getElementById("projects");
 
-        contentDiv.innerHTML = "<h2>Projects</h2>";
+        contentDiv.innerHTML = "<h2>Main Projects</h2>";
 
 
         data.forEach(item => {
@@ -34,7 +34,7 @@
                 
                 </p>
                 <p>
-                    <a href="${item.link}" target="_blank">Project Link</a>
+                    <a class="btn" style="color:white; width:100%" href="${item.link}" target="_blank">Project Link</a>
                 </p>
                 <hr>
             `;
