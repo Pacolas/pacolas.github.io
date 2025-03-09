@@ -8,7 +8,7 @@
     },
     {
         "id": "med_tranlator",
-        "name": "RealTime audio translator",
+        "name": "RealTime Audio Translator",
         "technologies": ["Python", "FastAPI", "HTML/JS/CSS", "Docker", "GeminiAI"],
         "link": "https://github.com/Pacolas/med-translate",
         "description": "In this project, we explored ways to integrate LLMs to develop a solution for existing communication challenges between patients and healthcare providers in real time. This approach enables accessible, real-time audio translation into multiple languages, along with accurate transcription."
