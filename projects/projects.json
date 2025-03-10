@@ -18,7 +18,7 @@
         "name": "Dron Competition Video Manager",
         "technologies": ["Python", "Docker", "GCP", "Gitlab"],
         "link": "https://gitlab.com/CarlosMunoz0/misw4204-g21",
-        "description": "As part of the development team, I developed an autoscalable cloud-native application. This application allows users to upload, edit, and publish videos."
+        "description": "As part of the development team, I developed an autoscalable cloud-native application. This API allows users to upload, edit, and publish videos."
     },
     {
         "id": "medical_etl",

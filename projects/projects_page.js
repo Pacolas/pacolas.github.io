@@ -15,7 +15,7 @@ async function fetchData() {
             
             div.classList.add("card");
             
-            let description =  item.description.slice(0,100) + "..."
+            let description =  item.description
         
             console.log(item.id)
 
