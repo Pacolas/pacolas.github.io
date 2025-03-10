@@ -17,10 +17,10 @@ async function fetchData() {
             
             let description =  item.description.slice(0,100) + "..."
         
-
+            console.log(item.id)
 
             div.innerHTML = `
-            <img src="https://static.wikia.nocookie.net/zelda/images/1/1c/TotK_-_Link_imagen_oficial.png/revision/latest?cb=20230220223232&path-prefix=es" class="card-img-top" alt="...">
+            <img src="../media/${item.id +".png"}" class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title">${item.name}</h5>
             <p class="card-text">${description}</p>

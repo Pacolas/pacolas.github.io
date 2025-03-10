@@ -21,11 +21,11 @@
         "description": "As part of the development team, I developed an autoscalable cloud-native application. This application allows users to upload, edit, and publish videos."
     },
     {
-        "id": "human_validated_nli",
-        "name": "Human-Validated Dataset for NLI",
-        "technologies": ["Python", "LabelStudio", "GCP"],
-        "link": "GitHub (Private)",
-        "description": "For testing NLI, I guided NLP students in labeling a multigenre corpus by implementing a labeling interface focused on the NLI task. Additionally, I implemented a parsing notebook to standardize the resulting dataset."
+        "id": "medical_etl",
+        "name": "Dashboard for metabolics deceases.",
+        "technologies": ["Cloud Storage", "Cloud Dataprep" , "Tableau", "Google Big Query"],
+        "link": "https://public.tableau.com/app/profile/carlos.manuel.mu.oz.almeida/viz/Proyecto2V3/Enfermedadesnutricionales",
+        "description": "A complete ETL process was designed and implemented to analyze data from a multipurpose survey, identifying patterns in the prevalence of metabolic diseases based on demographic factors.."
     },
     {
         "id": "sentiment_classifier_reviews",
