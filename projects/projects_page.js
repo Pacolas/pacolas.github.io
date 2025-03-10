@@ -24,7 +24,7 @@ async function fetchData() {
             <div class="card-body">
             <h5 class="card-title">${item.name}</h5>
             <p class="card-text">${description}</p>
-            <a href="./" class="btn btn-primary">See more</a>
+            <a href="${item.link}" class="btn btn-primary">See more</a>
             </div>
             `;
 
